@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="js/platform-check.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moj restoran</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bostrap js-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/profile.css" rel="stylesheet">
+
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-storage.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="js/init.js"></script>
+
+    <script src="js/profile.js"></script>
+
+</head>
+
+<body onunload="beforeClose();">
+    <div class="header head">
+        <a href="/" style="height: min-content;">
+            <h3 class="masthead-brand">EatUp</h3>
+        </a>
+        <a class="nav-link btn-primary" id="back" href="/">Nazad na početnu</a>
+    </div>
+
+    <div class="lower">
+        <div class="my-row">
+
+            <a style="cursor: pointer;" onclick="newImage();" class="profile-img col-sm">
+                <img alt="Slika restorana" class="profile-img hide" id="profile-img">
+                <button class="btn btn-primary" style="border-color: black;" id="add-img">Dodaj sliku</button>
+            </a>
+
+            <input type="file" id="fileButton" class="hide">
+
+            <div style="width: 30px;"></div>
+            <div class="card" style="width: 25rem;">
+                <div class="card-body">
+                    <h5 class="card-title" id="name"></h5>
+                    <p class="card-text" id="description"></p>
+                    <p class="card-text" id="area"></p>
+
+                    <button class="btn btn-primary" style="position:
+                            absolute;right: 20px;bottom: 20px;" onclick="showUserDataEntry();">Promijeni
+                            podatke</button>
+                </div>
+            </div>
+        </div>
+        <div style="height: 20px;"></div>
+
+        <div class="card card-body hide" id="change-user-data">
+            <input type="text" class="form-control" placeholder="Ime restorana" id="name-entry">
+            <div style="height: 20px;"></div>
+            <textarea type="text" class="form-control" placeholder="Opis restorana" id="description-entry" rows="4"></textarea>
+            <div style="height: 20px;"></div>
+
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownmenu" id="dropdownmenu-list">
+
+                </div>
+            </div>
+
+            <div style="height: 20px;"></div>
+            <button class="btn btn-primary" style="display: block;" onclick="saveUserDataEntry();">Spremi
+                        podatke</button>
+        </div>
+
+        <div style="height: 20px;"></div>
+
+        <!-- <div style="display: flex;">
+            <h3 style="flex: 2">Da bi vaš restoran bio vidljiv u aplikaciji započnite svoju pretplatu na našu uslugu.</h3>
+            <div style="width: 10px;"></div>
+            
+        <div style="flex: 1">
+            <div id="paypal-button-container"></div>
+            <script src="https://www.paypal.com/sdk/js?client-id=AQEqhsXi3BfNIZtevART-HnyVvN9ctCHepZ7bPWcUtj8zZ3iZDB5peBD1tM0g-QhnsKl6wFRoIw941_7&vault=true" data-sdk-integration-source="button-factory"></script>
+            <script>
+                paypal.Buttons({
+                    style: {
+                        shape: 'pill',
+                        color: 'blue',
+                        layout: 'vertical',
+                        label: 'subscribe',
+
+                    },
+                    createSubscription: function(data, actions) {
+                        return actions.subscription.create({
+                            'plan_id': 'P-25E75171TH553040YL43HONA'
+                        });
+                    },
+                    onApprove: function(data, actions) {
+                        alert(data.subscriptionID);
+                    }
+                }).render('#paypal-button-container');
+            </script>
+        </div>
+    </div> -->
+
+        <div class="col menu-card">
+            <div class="my-row" style="margin-bottom: 20px; justify-content: space-between;">
+                <h1>Jelovnik</h1>
+                <button class="btn btn-primary text-uppercase" onclick="saveMenu();">Spremi
+                            promjene jelovnika</button>
+            </div>
+            <div class="loader"></div>
+            <h5 class="hide" id="changed">Jelovnik je promijenjen potrebno ga je spremiti ^</h5>
+            <ul id="menu">
+            </ul>
+            <button class="btn btn-primary btn-block" onclick="addCategory();">Dodaj kategoriju</button>
+            </class>
+
+        </div>
+        <div style="height: 200px;"></div>
+
+    </div>
+</body>
+
+</html>

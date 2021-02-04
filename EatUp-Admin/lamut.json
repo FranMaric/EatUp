@@ -1,0 +1,490 @@
+{
+    "area": "Vinkovci",
+    "active": true,
+    "name": "Lamut",
+    "imageUrl": "",
+    "menu": [
+        {
+            "name": "Pizza",
+            "image": "pizza",
+            "meals": [
+                {
+                    "name": "Margarita",
+                    "price": 30.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Margarita Jumbo",
+                    "price": 60.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Vezuvio",
+                    "price": 30.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Vezuvio Jumbo",
+                    "price": 60.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Fungi",
+                    "price": 30.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Fungi Jumbo",
+                    "price": 60.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Vegetarijanska",
+                    "price": 30.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Vegetarijanska Jumbo",
+                    "price": 60.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Capricciosa",
+                    "price": 35.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Capricciosa Jumbo",
+                    "price": 65.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "\u0160oka\u010dka",
+                    "price": 40.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "\u0160oka\u010dka Jumbo",
+                    "price": 70.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Lamut",
+                    "price": 40.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Lamut Jumbo",
+                    "price": 70.0,
+                    "description": null,
+                    "quantity": null
+                }
+            ]
+        },
+        {
+            "meals": [
+                {
+                    "name": "Slavonska \u0161unka",
+                    "quantity": "100 g",
+                    "price": 40
+                },
+                {
+                    "name": "Kulen",
+                    "price": 40,
+                    "quantity": "100 g"
+                },
+                {
+                    "quantity": "100 g",
+                    "name": "Svje\u017ei sir",
+                    "price": 10
+                },
+                {
+                    "price": 10,
+                    "name": "Tvrdi sir",
+                    "quantity": "100 g"
+                }
+            ],
+            "name": "Hladna predjela",
+            "image": "appetizers"
+        },
+        {
+            "meals": [
+                {
+                    "price": 15,
+                    "name": "Gove\u0111a juha"
+                },
+                {
+                    "name": "Juha od raj\u010dice",
+                    "price": 17
+                },
+                {
+                    "name": "Juha od povr\u0107a",
+                    "price": 15
+                },
+                {
+                    "name": "Juha od gljiva",
+                    "price": 17
+                },
+                {
+                    "name": "Ragu juha",
+                    "price": 20
+                }
+            ],
+            "image": "soup",
+            "name": "Juhe"
+        },
+        {
+            "name": "Riba",
+            "image": "fish",
+            "meals": [
+                {
+                    "price": 60,
+                    "name": "Smu\u0111 orly",
+                    "description": "(pommes, lepinja)"
+                },
+                {
+                    "price": 50,
+                    "description": "(pommes, lepinja)",
+                    "name": "Lignje frigane"
+                },
+                {
+                    "name": "Lignje na \u017earu",
+                    "price": 50,
+                    "description": "(pommes, lepinja)"
+                },
+                {
+                    "name": "Smu\u0111 sa \u017eara",
+                    "price": 180,
+                    "quantity": "1 kg",
+                    "description": "(blitva)"
+                },
+                {
+                    "name": "Smu\u0111 u umaku od limuna i ru\u017emarina",
+                    "price": 60
+                }
+            ]
+        },
+        {
+            "name": "Gotova jela",
+            "image": "stew",
+            "meals": [
+                {
+                    "name": "Grah varivo",
+                    "description": "(lepinja)",
+                    "price": 30
+                },
+                {
+                    "name": "Paprika\u0161",
+                    "description": "(lepinja)",
+                    "price": 30
+                },
+                {
+                    "price": 30,
+                    "name": "Gula\u0161 svinjski/gove\u0111i",
+                    "description": "(lepinja)"
+                },
+                {
+                    "description": "(lepinja)",
+                    "name": "\u010cobanac",
+                    "price": 45
+                },
+                {
+                    "price": 50,
+                    "name": "Fi\u0161 paprika\u0161 sa tjesteninom"
+                }
+            ]
+        },
+        {
+            "image": "pasta",
+            "name": "Tjestenina",
+            "meals": [
+                {
+                    "price": 35,
+                    "name": "Spaghetti bolognese"
+                },
+                {
+                    "name": "Spaghetti carbonara",
+                    "price": 35
+                },
+                {
+                    "price": 35,
+                    "name": "Lazanje"
+                }
+            ]
+        },
+        {
+            "meals": [
+                {
+                    "price": 20,
+                    "name": "Topli sendvi\u0107"
+                },
+                {
+                    "price": 22,
+                    "name": "Topli sendvi\u0107 s vrhnjem"
+                }
+            ],
+            "image": "sandwich",
+            "name": "Sendvi\u0107"
+        },
+        {
+            "image": "grill",
+            "meals": [
+                {
+                    "description": "(5 \u0107evapa, somun)",
+                    "price": 20.0,
+                    "quantity": null,
+                    "name": "\u0106evapi mali"
+                },
+                {
+                    "name": "\u0106evapi veliki",
+                    "description": "(10 \u0107evapa, somun)",
+                    "price": 35.0,
+                    "quantity": null
+                },
+                {
+                    "price": 40.0,
+                    "quantity": null,
+                    "name": "Pljeskavica",
+                    "description": "(pommes, lepinja)"
+                },
+                {
+                    "price": 50.0,
+                    "quantity": null,
+                    "description": "(pommes, lepinja)",
+                    "name": "Punjena pljeskavica sa sirom"
+                },
+                {
+                    "description": "(punjena sirom, slaninom, lukom, kajmak, pommes, somun)",
+                    "quantity": null,
+                    "name": "Pljeskavica Lamut (300g)",
+                    "price": 65.0
+                }
+            ],
+            "name": "Jela s ro\u0161tilja"
+        },
+        {
+            "name": "Prilozi",
+            "image": "pommes",
+            "meals": [
+                {
+                    "name": "Pommes frites",
+                    "price": 10.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Mije\u0161ano povr\u0107e",
+                    "price": 15.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Gljive na \u017earu",
+                    "price": 18.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Kroketi",
+                    "price": 12.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Njoki",
+                    "price": 15.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Pohani \u0161ampinjoni",
+                    "price": 20.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Pohani karfiol",
+                    "price": 18.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Pekarski krumpir",
+                    "price": 12.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Krumpir plo\u0161ke",
+                    "price": 12.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Umak od gljiva",
+                    "price": 18.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Grah zape\u010deni",
+                    "price": 20.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Blitva",
+                    "price": 15.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Povr\u0107e sa \u017eara",
+                    "price": 18.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Lepinja",
+                    "price": 3.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Ri\u017ea",
+                    "price": 10.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Pohani sir",
+                    "price": 25.0,
+                    "description": null,
+                    "quantity": null
+                }
+            ]
+        },
+        {
+            "name": "Salate",
+            "image": "salad",
+            "meals": [
+                {
+                    "name": "Raj\u010dica",
+                    "price": 15.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Kupus",
+                    "price": 15.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Krastavci",
+                    "price": 15.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Mije\u0161ana salata",
+                    "price": 15.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Krastavci s vrhnjem",
+                    "price": 17.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "\u0160opska salata",
+                    "price": 20.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Luk",
+                    "price": 4.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Zelena salata",
+                    "price": 15.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Paprika pe\u010dena",
+                    "price": 18.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Pile\u0107a salata",
+                    "price": 35.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Pohana pile\u0107a salata",
+                    "price": 40.0,
+                    "description": null,
+                    "quantity": null
+                },
+                {
+                    "name": "Caprese",
+                    "price": 30.0,
+                    "description": null,
+                    "quantity": null
+                }
+            ]
+        },
+        {
+            "image": "desert",
+            "meals": [
+                {
+                    "name": "Pala\u010dinke prazne",
+                    "price": 5
+                },
+                {
+                    "name": "Pala\u010dinke zape\u010dene sa sirom i vrhnjem",
+                    "price": 20
+                },
+                {
+                    "name": "Pala\u010dinke s orasima",
+                    "price": 15
+                },
+                {
+                    "name": "Pala\u010dinke s nutellom",
+                    "price": 15
+                },
+                {
+                    "name": "Pala\u010dinke s marmeladom",
+                    "price": 15
+                },
+                {
+                    "name": "Tiramisu",
+                    "price": 12
+                }
+            ],
+            "name": "Deserti"
+        }
+    ],
+    "description": "Odlican restoran daaa"
+}

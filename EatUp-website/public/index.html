@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <script src="js/platform-check.js"></script>
+
+    <meta charset="utf-8">
+    <title>EatUp</title>
+
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link href="css/index.css" rel="stylesheet">
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-firestore.js"></script>
+    <!-- Initialize Firebase -->
+    <script src="js/init.js"></script>
+
+    <script src="js/index.js"></script>
+
+</head>
+
+
+<body>
+    <div class="header">
+        <a href="/" style="height: min-content;" id="title">
+            <h3 class="masthead-brand">EatUp</h3>
+        </a>
+        <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link btn-primary" id="login" href="/prijava">Prijava</a>
+            <div style="width: 10px;"></div>
+
+            <a class="nav-link btn-primary" id="register" href="/registracija">Registriraj se</a>
+
+            <a class="nav-link hide btn-primary" id="restaurant" href="/restoran">Moj
+                        restoran</a>
+            <div style="width: 10px;"></div>
+            <button class="nav-link hide btn btn-primary" id="logout" onclick="logout()">Odjava</button>
+        </nav>
+    </div>
+
+    <div style="height: 3px; background-color: #ffa21f; "></div>
+
+    <main>
+        <div class="title">
+            <h1 class="heading">Online dostava za sve restorane</h1>
+        </div class="title">
+    </main>
+    </div>
+</body>
+
+</html>

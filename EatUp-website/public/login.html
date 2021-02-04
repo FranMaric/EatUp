@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <script src="js/platform-check.js"></script>
+
+    <meta charset="utf-8">
+    <title>Prijava</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/signin.css" rel="stylesheet">
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-firestore.js"></script>
+    <!-- Initialize Firebase -->
+    <script src="js/init.js"></script>
+
+    <script src="js/login.js"></script>
+
+</head>
+
+<body class="text-center">
+    <form class="form-signin" onsubmit="login();return false;">
+        <h1 class="h3 mb-3 font-weight-normal">Prijavite se</h1>
+
+        <label for="inputEmail" class="sr-only">Email adresa</label>
+        <input type="email" id="email" class="form-control" placeholder="Email adresa" required autofocus>
+
+        <label for="inputPassword" class="sr-only">Lozinka</label>
+        <input type="password" id="password" class="form-control" placeholder="Lozinka" required>
+
+        <button onclick="login()" class="btn btn-lg
+                btn-primary btn-block">Prijavi
+                me</button>
+
+        <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
+    </form>
+</body>
+
+</html>

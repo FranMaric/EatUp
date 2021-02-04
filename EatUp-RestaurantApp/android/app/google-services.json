@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1097995833188",
+    "firebase_url": "https://eatup-hr.firebaseio.com",
+    "project_id": "eatup-hr",
+    "storage_bucket": "eatup-hr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097995833188:android:9657c31812ee80d0f57471",
+        "android_client_info": {
+          "package_name": "com.eatuphr.restaurantapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097995833188-2h6mg7q7clakslc2ada9hhs6j9ik6078.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD-1UHa_gCt5krXbDMpxDzpbrN5d85Qcc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097995833188-2h6mg7q7clakslc2ada9hhs6j9ik6078.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

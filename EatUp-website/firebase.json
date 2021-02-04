@@ -1,0 +1,27 @@
+{
+    "hosting": {
+        "public": "public",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**"
+        ],
+        "rewrites": [{
+                "source": "/prijava",
+                "destination": "/login.html"
+            },
+            {
+                "source": "/registracija",
+                "destination": "/register.html"
+            },
+            {
+                "source": "/restoran",
+                "destination": "/profile.html"
+            },
+            {
+                "source": "/paypal/**",
+                "function": "paypalApp"
+            }
+        ]
+    }
+}

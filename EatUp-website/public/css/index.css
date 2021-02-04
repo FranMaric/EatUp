@@ -1,0 +1,39 @@
+@import "constants.css";
+a,
+a:focus,
+a:hover {
+    color: #fff;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: var(--accent-color);
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav a,
+.header button {
+    border-radius: 100px;
+    background-color: #ffa21f;
+    border-color: #ffa21f;
+}
+
+.masthead-brand {
+    color: white;
+}
+
+.title {
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
