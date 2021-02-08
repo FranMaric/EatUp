@@ -6,4 +6,4 @@ I made EatUp because I wanted to make my own version of urban delivery system. I
 Flutter  
 HTML CSS Javascript  
 Bootstrap  
-Firebase  
+Firebase for apps and websites (Auth, Firestore, Storage, Functions, Hosting)  
